@@ -1,0 +1,169 @@
+body{
+
+background-color: black;
+font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+color: white;
+
+}
+.main{
+
+display: flex;
+flex-wrap: wrap;
+justify-content: center;
+margin-top: 30px;
+
+}
+.display{
+
+background-color: red;
+height: 30rem;
+width: 25rem;
+border-style: solid;
+border-radius: 10px;
+
+}
+#screen{
+
+margin: 20px;
+padding: 20px;
+background-color: black;
+width: 80%;
+height: 50%;
+border-radius: 10px;
+text-align: center;
+
+}
+#screen img{
+
+width: 50%;
+height: auto;
+
+}
+#screen h1{
+
+color: white;
+
+}
+.input{
+
+background-color: red;
+height: 30rem;
+width: 25rem;
+border-style: solid;
+border-radius: 10px;
+
+}
+#searchPokemon{
+
+margin: 20px;
+margin-top: 40px;
+height: 3rem;
+width: 22rem;
+
+}
+.buttons{
+
+display: flex;
+flex-wrap: wrap;
+margin: 20px;
+gap: 20px;
+justify-content: center;
+
+}
+.button{
+
+height: 5rem;
+width: 5rem;
+border-radius: 20px;
+background-color: aqua;
+
+}
+.lights{
+
+display: flex;
+flex-wrap: wrap;
+margin-top: 20px;
+margin-left: 20px;
+gap: 10px;
+
+}
+.light1{
+
+height: 1rem;
+width: 1rem;
+border-radius: 50%;
+background-color: green;
+
+}
+.light2{
+
+height: 1rem;
+width: 1rem;
+border-radius: 50%;
+background-color: blue;
+
+}
+.light3{
+
+height: 1rem;
+width: 1rem;
+border-radius: 50%;
+background-color: yellow;
+
+}
+.ui{
+
+margin-left: 50px;
+margin-top: 20px;
+display: flex;
+flex-wrap: wrap;
+
+}
+.volume{
+
+height: 5rem;
+width: 5rem;
+background-color: black;
+border-radius: 50%;
+border-style: solid;
+border-width: 5px;
+
+}
+.joystick{
+
+display: flex;
+flex-wrap: wrap;
+gap: 10px;
+margin-top: 20px;
+margin-left: 40px;
+
+}
+.bigbutton1{
+
+width: 3rem;
+height: 3rem;
+border-radius: 50%;
+background-color: white;
+
+}
+.bigbutton2{
+
+width: 3rem;
+height: 3rem;
+border-radius: 50%;
+background-color: blue;
+
+}
+.bigbutton3{
+
+width: 3rem;
+height: 3rem;
+border-radius: 50%;
+background-color: green;
+
+}
+#submit{
+
+cursor: pointer;
+
+}
