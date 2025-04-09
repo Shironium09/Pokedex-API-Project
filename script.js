@@ -36,9 +36,24 @@ return response.json();
                 const name = document.createElement('h1');
                 name.textContent = pokemonName;
 
-                const image = document.createElement('img');
-                image.src = data.sprites.front_default;
-                image.alt = pokemonName;
+                let shiny = Math.floor(Math.random()*10) + 1;
+
+                let image;
+
+                if(shiny == 1){
+
+                    image = document.createElement('img');
+                    image.src = data.sprites.front_shiny;
+                    image.alt = pokemonName;
+
+                }
+                else{
+
+                    image = document.createElement('img');
+                    image.src = data.sprites.front_default;
+                    image.alt = pokemonName;
+
+                }
 
                 screen.appendChild(image);
                 screen.appendChild(name);
